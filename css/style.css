@@ -4,11 +4,6 @@ a{
     text-decoration: none;
 }
 
-ul,ol,menu{
-    list-style: none;
-}
-
-
 /* COLORS */
 :root{
     --teal: #1ABC9C;
@@ -90,9 +85,17 @@ h1{
     font-size: 30px;
 }
 
+.main__subtitle{
+    font-size: 12px;
+}
+
 @media screen and (min-width:768px) {
     h1{
         font-size: 50px;
+    }
+
+    .main__subtitle{
+        font-size: 16px;
     }
 }
 
