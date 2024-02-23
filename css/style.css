@@ -1,11 +1,4 @@
-/* LAYOUT */
-
-:root{
-    --teal: #1ABC9C;
-    --dark-blue: #2C3E50;
-    --footer: #3A546D;
-}
-
+/* RESET */
 a{
     color: currentColor;
     text-decoration: none;
@@ -13,6 +6,26 @@ a{
 
 ul,ol,menu{
     list-style: none;
+}
+
+
+/* COLORS */
+:root{
+    --teal: #1ABC9C;
+    --dark-blue: #2C3E50;
+    --footer: #3A546D;
+}
+
+/* LAYOUT */
+
+section h2{
+    font-size:20px;
+}
+
+@media screen and (min-width:768px) {
+    section h2{
+        font-size: 30px;
+    }
 }
 
 /* DIVIDER WITH STAR */
@@ -51,6 +64,16 @@ nav{
     background: var(--dark-blue);
 }
 
+.nav__cta{
+    font-size: 14px;
+}
+
+@media screen and (min-width:768px) {
+    .nav__cta{
+        font-size: 26px;
+    }
+}
+
 /* MAIN */
 
 /* HERO */
@@ -63,6 +86,16 @@ nav{
     max-width: 200px;
 }
 
+h1{
+    font-size: 30px;
+}
+
+@media screen and (min-width:768px) {
+    h1{
+        font-size: 50px;
+    }
+}
+
 /* ABOUT */
 
 .about{
@@ -72,6 +105,16 @@ nav{
 
 .about .container{
     padding: 0 70px;
+}
+
+.about p{
+    font-size: 14px;
+}
+
+@media screen and (min-width:768px) {
+    .about p{
+        font-size: 16px;
+    }
 }
 
 
