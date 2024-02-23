@@ -21,11 +21,27 @@ ul,ol,menu{
 .star::before{
     content: "" ;
     display: inline-block;
-    width:170px;
+    width:60px;
     height: 3px;
     background-color: currentColor;
-    margin: 0 30px;
+    margin: 0 5px;
     vertical-align: middle;
+    
+}
+
+@media screen and (min-width:768px) {
+    .star::after,
+    .star::before{
+        width: 130px;
+        margin: 0 30px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .star::after,
+    .star::before{
+        width: 170px;
+    }
 }
 
 /* HEADER */
@@ -37,12 +53,28 @@ nav{
 
 /* MAIN */
 
+/* HERO */
+.hero{
+    background-color: var(--teal);
+    color: white;
+}
+
+.hero img{
+    max-width: 200px;
+}
+
 /* ABOUT */
 
 .about{
     color: white;
     background-color: var(--teal);
 }
+
+.about .container{
+    padding: 0 70px;
+}
+
+
 
 
 
