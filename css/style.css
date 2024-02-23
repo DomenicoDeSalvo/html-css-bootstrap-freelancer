@@ -122,8 +122,40 @@ h1{
 
 /* FOOTER */
 
-/* COPYRIGHT */
+/* FOOTER MAIN */
 
+.footer__main{
+    color: white;
+    background-color: var(--footer);
+    font-size: 14px;
+}
+
+.socials{
+    border-radius: 50%;
+    border: 1px solid currentColor;
+    line-height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.creators{
+    color: var(--teal);
+}
+
+@media screen and (min-width:768px) {
+    .footer__main{
+        font-size: 16px;
+    }
+    
+    h6{
+        font-size: 20px;
+    }
+    
+}
+
+/* COPYRIGHT */
 .copyright{
     color: white;
     background-color: var(--dark-blue);
