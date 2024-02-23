@@ -15,6 +15,19 @@ ul,ol,menu{
     list-style: none;
 }
 
+/* DIVIDER WITH STAR */
+
+.star::after,
+.star::before{
+    content: "" ;
+    display: inline-block;
+    width:170px;
+    height: 3px;
+    background-color: currentColor;
+    margin: 0 30px;
+    vertical-align: middle;
+}
+
 /* HEADER */
 
 nav{
@@ -24,25 +37,14 @@ nav{
 
 /* MAIN */
 
-/* PORTFOLIO */
+/* ABOUT */
 
-.portfolio img{
-    object-fit: cover;
+.about{
+    color: white;
+    background-color: var(--teal);
 }
 
-/* PORTFOLIO MEDIA QUERY
 
-@media screen and (min-width:768px) {
-    .portfolio img{
-        max-width: 450px;
-    }
-    
-}
 
-@media screen and (min-width:992px) {
-    .portfolio img{
-        max-width: 360px;
-    }
-    
-} */
+
 
