@@ -23,6 +23,13 @@ section h2{
     }
 }
 
+/* BUTTONS */
+
+.teal-button{
+    background-color: var(--teal);
+    color: white;
+}
+
 /* DIVIDER WITH STAR */
 
 .star::after,
@@ -119,6 +126,14 @@ h1{
         font-size: 16px;
     }
 }
+
+/* CALL TO ACTION */
+
+.cta .container{
+    padding: 0 70px;
+}
+
+
 
 /* FOOTER */
 
